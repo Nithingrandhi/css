@@ -36,6 +36,9 @@
     .portfolio:hover{
         background-color: #009688;
     }
+    .material-symbols-outlined{
+        padding-right: 10px;
+    }
     .about{
         margin-top: 10px;
         display: block;
@@ -184,4 +187,43 @@
       width: 560px;
       height: 345px;
     }
+}
+.basic,.Pro,.Premium{
+    margin-left: 20px;
+    display: inline-block;
+    border: 1px solid black;
+    width: 350px;
+    h3{
+        margin-top: 0px;
+         text-align: center;
+         padding-top: 10px;
+    }
+    p{
+        padding-left: 35%;
+    }
+    .basic-heaindg{
+         background-color: gray;
+         padding-top: 0px;
+}
+     .desc{
+        padding-left: 33%;
+        font-style: italic;
+        font-size: medium;
+     }
+     button{
+        width: 70px;
+        height: 30px;
+        margin-left: 35%;
+        background-color: #009688;
+        color: black;
+        margin-bottom: 30px;
+     }
+     button:hover{
+        background-color: black;
+        color: white;
+     }
+     .basic-heaindg:hover{
+        background-color: black;
+        color: white;
+     }
 }
