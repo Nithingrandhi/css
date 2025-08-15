@@ -142,7 +142,6 @@
         padding-top: 0px;
     }
     img:hover{
-      transform: scale(1.1); 
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
     padding-top: 0px;
@@ -162,7 +161,6 @@
         padding-top: 0px;
     }
     img:hover{
-      transform: scale(1.1); 
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
     padding-top: 0px;
@@ -226,4 +224,101 @@
         background-color: black;
         color: white;
      }
+}
+.email,.location,.phonenumber{
+    margin-left: 20px;
+    display: inline-block;
+    width: 350px;
+    height: 100px;
+    p{
+      text-align: center;
+      padding-top: 30px;
+    }
+}
+.email{
+    background-color:  rgb(88, 85, 85);
+    p{
+        color: white;
+        font-size: large;
+    }
+}
+.location{
+ background-color: #009688;
+ color: white;
+}
+.phonenumber{
+    background-color:  rgb(88, 85, 85);
+    color: white;
+}
+.form{
+    .name{
+        margin-top: 20px;
+        input{
+            width: 95%;
+            height: 30px;
+        }
+        padding-left: 20px;
+    }
+}
+.down{
+    background-color: gray;
+    button{
+        width: 200px;
+        height: 50px;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: black;
+        color: white;
+    }
+}
+.footer,.blogposts,.populertags{
+    display: inline-block;
+    width: 350px;
+    height: fit-content;
+    margin-left: 20px;
+    h3{
+        padding-left: 20px;
+        color: white;
+    }
+    p{
+        padding-top: 10px;
+    }
+
+}
+.span{
+    display: inline-block;
+    width: fit-content;
+    border: 1px solid black;
+    padding: 0px 5px;
+    margin: 3px;
+    font-size: small;
+    background-color: gray;
+}
+.travel{
+    margin: 3px;
+    width: fit-content;
+    border: 1px solid black;
+    padding: 0px 5px;
+    background-color: black;
+    color: white;
+}
+.lasttags{
+    background-color:  rgb(88, 85, 85);
+}
+.black{
+    border: black;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    p{
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+    }
+    a{
+        padding-left: 10px;
+        text-decoration: underline;
+        color: white;
+    }
 }
